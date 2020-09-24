@@ -16,3 +16,6 @@ create table user_login_signup.UserInfo(
 
 INSERT INTO user_login_signup.UserInfo(ID,FirstName,LastName,UserName,EmailAddress,Password) 
 VALUES(1,'Aditya','Manjrekar','ad90tya','ad90tya@gmail.com','Test@123');
+
+INSERT INTO user_login_signup.UserInfo(ID,FirstName,LastName,UserName,EmailAddress,Password) 
+VALUES(2,'Anirudha','Kadam','anirudha','anirudha@gmail.com','Test@123');
