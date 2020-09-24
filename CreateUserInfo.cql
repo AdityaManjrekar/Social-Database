@@ -1,8 +1,8 @@
 use user_login_signup;
 
-Drop table UserInfo;
+Drop table user_login_signup.UserInfo;
 
-create table UserInfo(
+create table user_login_signup.UserInfo(
     ID bigint, 
     FirstName text, 
     LastName text, 
@@ -12,4 +12,7 @@ create table UserInfo(
     CreationDate timestamp, 
     LastLogin timestamp,
     AvatarUrl text, 
-    PRIMARY KEY(id));
+    PRIMARY KEY(id)); 
+
+INSERT INTO user_login_signup.UserInfo(ID,FirstName,LastName,UserName,EmailAddress,Password) 
+VALUES(1,'Aditya','Manjrekar','ad90tya','ad90tya@gmail.com','Test@123');
