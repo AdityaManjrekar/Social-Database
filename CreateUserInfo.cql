@@ -1,4 +1,7 @@
-//UserInfo table creation
+use user_login_signup;
+
+Drop table UserInfo;
+
 create table UserInfo(
     ID bigint, 
     FirstName text, 
